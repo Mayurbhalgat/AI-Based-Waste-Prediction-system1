@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Kitchen 🍽️</title>
+  <style>
+    /* ── Reset & Base ── */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #f4f6f0; color: #333; }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, #2e7d32, #66bb6a);
+      color: white; padding: 20px 40px;
+      display: flex; align-items: center; justify-content: space-between;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    }
+    header h1 { font-size: 28px; }
+    header p  { font-size: 13px; opacity: 0.85; margin-top: 4px; }
+    .badge {
+      background: rgba(255,255,255,0.2); border-radius: 20px;
+      padding: 6px 14px; font-size: 13px;
+    }
+
+    /* ── Tab Navigation ── */
+    .tabs {
+      display: flex; background: white;
+      border-bottom: 3px solid #2e7d32;
+      padding: 0 40px;
+    }
+    .tab {
+      padding: 14px 28px; cursor: pointer; font-size: 15px;
+      font-weight: 600; color: #777; border-bottom: 3px solid transparent;
+      margin-bottom: -3px; transition: all 0.2s;
+    }
+    .tab:hover  { color: #2e7d32; }
+    .tab.active { color: #2e7d32; border-bottom-color: #2e7d32; }
+
+    /* ── Content ── */
+    .content { padding: 30px 40px; max-width: 1200px; margin: 0 auto; }
+    .panel { display: none; }
+    .panel.active { display: block; }
+
+    /* ── Card ── */
+    .card {
+      background: white; border-radius: 12px;
+      padding: 24px; margin-bottom: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .card h2 { color: #2e7d32; margin-bottom: 16px; font-size: 18px; }
+
+    /* ── Form Elements ── */
+    .form-row { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 20px; }
+    .form-group { display: flex; flex-direction: column; flex: 1; min-width: 200px; }
+    label { font-size: 13px; font-weight: 600; color: #555; margin-bottom: 6px; }
+    select, input[type="number"], input[type="text"] {
+      padding: 10px 14px; border: 2px solid #ddd; border-radius: 8px;
+      font-size: 14px; transition: border 0.2s; outline: none;
+    }
+    select:focus, input:focus { border-color: #2e7d32; }
+
+    /* ── Buttons ── */
+    .btn {
+      padding: 12px 28px; border: none; border-radius: 8px;
+      font-size: 15px; font-weight: 600; cursor: pointer; transition: all 0.2s;
+    }
+    .btn-green  { background: #2e7d32; color: white; }
+    .btn-green:hover  { background: #1b5e20; transform: translateY(-1px); }
+    .btn-orange { background: #e65100; color: white; }
+    .btn-orange:hover { background: #bf360c; }
+
+    /* ── Metrics ── */
+    .metrics { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; }
+    .metric {
+      background: white; border-radius: 10px; padding: 16px 22px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08); flex: 1; min-width: 140px; text-align: center;
+    }
+    .metric .val { font-size: 26px; font-weight: 700; color: #2e7d32; }
+    .metric .lbl { font-size: 12px; color: #777; margin-top: 4px; }
+
+    /* ── Table ── */
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    thead th {
+      background: #2e7d32; color: white;
+      padding: 12px 14px; text-align: left; font-weight: 600;
+    }
+    tbody tr:nth-child(even) { background: #f9fbe7; }
+    tbody tr:hover { background: #e8f5e9; }
+    tbody td { padding: 11px 14px; border-bottom: 1px solid #eee; }
+    .badge-excess   { background: #e8f5e9; color: #2e7d32; padding: 3px 10px; border-radius: 12px; font-weight: 600; font-size: 12px; }
+    .badge-shortage { background: #ffebee; color: #c62828; padding: 3px 10px; border-radius: 12px; font-weight: 600; font-size: 12px; }
+    .badge-ngo      { background: #fff3e0; color: #e65100; padding: 3px 10px; border-radius: 12px; font-weight: 600; font-size: 12px; }
+
+    /* ── Stock Input Grid ── */
+    .stock-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
+    .stock-item label { font-size: 13px; color: #444; margin-bottom: 4px; display: block; }
+
+    /* ── NGO Box ── */
+    .ngo-box {
+      background: #fff8e1; border: 2px solid #ff8f00;
+      border-radius: 12px; padding: 22px; margin-top: 24px;
+    }
+    .ngo-box h3 { color: #e65100; margin-bottom: 14px; font-size: 18px; }
+    .ngo-form { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 14px; }
+    .ngo-form input { flex: 1; min-width: 180px; }
+
+    /* ── Loader ── */
+    .loader {
+      display: none; text-align: center; padding: 30px;
+      color: #2e7d32; font-size: 16px; font-weight: 600;
+    }
+    .spinner {
+      width: 36px; height: 36px; border: 4px solid #c8e6c9;
+      border-top-color: #2e7d32; border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      display: inline-block; margin-bottom: 10px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Alert ── */
+    .alert {
+      padding: 14px 18px; border-radius: 8px;
+      margin-bottom: 16px; font-weight: 500; display: none;
+    }
+    .alert-success { background: #e8f5e9; color: #2e7d32; border-left: 4px solid #2e7d32; }
+    .alert-error   { background: #ffebee; color: #c62828; border-left: 4px solid #c62828; }
+
+    /* ── Hidden ── */
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div>
+    <h1>🍽️ Smart Kitchen</h1>
+    <p>AI-Based Food Ingredient Predictor & Waste Management System</p>
+  </div>
+  <div class="badge">🤖 Model: LSTM &nbsp;|&nbsp; R² = {{ model_info.test_r2 }}</div>
+</header>
+
+<!-- Tabs -->
+<div class="tabs">
+  <div class="tab active" onclick="switchTab('predict', this)">🔮 Predict Ingredients</div>
+  <div class="tab"        onclick="switchTab('analyze', this)">📊 Waste & Stock Analysis</div>
+</div>
+
+<div class="content">
+
+  <!-- ════════════════════════════════════════════
+       TAB 1 — PREDICT INGREDIENTS
+  ════════════════════════════════════════════ -->
+  <div id="tab-predict" class="panel active">
+
+    <div class="card">
+      <h2>🔮 Predict Required Ingredients</h2>
+      <div class="form-row">
+        <div class="form-group">
+          <label>🍛 Select Dish</label>
+          <select id="p-dish" onchange="loadStockInputs()">
+            {% for dish in dishes %}
+            <option value="{{ dish }}">{{ dish }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="form-group">
+          <label>👥 Number of Customers</label>
+          <input type="number" id="p-customers" value="10" min="1" max="1000" />
+        </div>
+        <div class="form-group" style="justify-content:flex-end;">
+          <label>&nbsp;</label>
+          <button class="btn btn-green" onclick="predictIngredients()">🔮 Predict</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="loader" id="p-loader">
+      <div class="spinner"></div><br>Predicting ingredients...
+    </div>
+
+    <div id="p-result" class="hidden">
+      <div class="metrics" id="p-metrics"></div>
+      <div class="card">
+        <h2>📋 Ingredient Requirements</h2>
+        <div class="table-wrap">
+          <table id="p-table">
+            <thead>
+              <tr>
+                <th>#</th><th>Ingredient</th><th>Required (g)</th>
+                <th>Required (kg)</th><th>Category</th>
+                <th>Shelf Life</th><th>Perishability</th>
+              </tr>
+            </thead>
+            <tbody id="p-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════
+       TAB 2 — WASTE & STOCK ANALYSIS
+  ════════════════════════════════════════════ -->
+  <div id="tab-analyze" class="panel">
+
+    <div class="card">
+      <h2>📊 Waste & Stock Analysis</h2>
+      <div class="form-row">
+        <div class="form-group">
+          <label>🍛 Select Dish</label>
+          <select id="a-dish" onchange="loadStockInputs()">
+            {% for dish in dishes %}
+            <option value="{{ dish }}">{{ dish }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="form-group">
+          <label>👥 Number of Customers</label>
+          <input type="number" id="a-customers" value="10" min="1" max="1000" />
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="stock-card">
+      <h2>🏪 Enter Your Current Stock (in grams)</h2>
+      <p style="color:#777; font-size:13px; margin-bottom:16px;">Enter 0 if you don't have that ingredient</p>
+      <div class="stock-grid" id="stock-grid">
+        <p style="color:#aaa;">← Select a dish to load ingredients</p>
+      </div>
+      <br>
+      <button class="btn btn-green" onclick="analyzeWaste()">📊 Analyse Stock & Predict Waste</button>
+    </div>
+
+    <div class="loader" id="a-loader">
+      <div class="spinner"></div><br>Analysing stock and predicting waste...
+    </div>
+
+    <div id="a-result" class="hidden">
+
+      <div class="metrics" id="a-metrics"></div>
+
+      <div class="card">
+        <h2>📋 Detailed Stock Analysis</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th><th>Ingredient</th><th>In Stock (g)</th>
+                <th>Required (g)</th><th>Status</th>
+                <th>Excess (g)</th><th>Shortage (g)</th>
+                <th>Predicted Waste (g)</th><th>NGO Alert</th>
+              </tr>
+            </thead>
+            <tbody id="a-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- NGO Alert Box -->
+      <div class="ngo-box hidden" id="ngo-box">
+        <h3>🚨 NGO Alert Required!</h3>
+        <p>The following ingredients have significant waste predicted. Please donate to an NGO.</p>
+        <div class="table-wrap" style="margin-top:14px;">
+          <table>
+            <thead>
+              <tr><th>Ingredient</th><th>Excess (g)</th><th>Predicted Waste (g)</th><th>Shelf Life</th></tr>
+            </thead>
+            <tbody id="ngo-tbody"></tbody>
+          </table>
+        </div>
+        <div class="ngo-form">
+          <div class="form-group" style="flex:1;">
+            <label>🏪 Restaurant Name</label>
+            <input type="text" id="ngo-restaurant" value="My Restaurant" />
+          </div>
+          <div class="form-group" style="flex:1;">
+            <label>📍 Location</label>
+            <input type="text" id="ngo-location" value="Mumbai, Maharashtra" />
+          </div>
+          <div class="form-group" style="flex:1;">
+            <label>🕕 Pickup Time</label>
+            <input type="text" id="ngo-pickup" value="Today Evening 6 PM" />
+          </div>
+          <div class="form-group" style="justify-content:flex-end;">
+            <label>&nbsp;</label>
+            <button class="btn btn-orange" onclick="sendNGOAlert()">📧 Send NGO Alert</button>
+          </div>
+        </div>
+        <div class="alert alert-success" id="ngo-success">✅ NGO Alert sent successfully!</div>
+      </div>
+
+      <div class="ngo-box hidden" id="no-waste-box" style="background:#e8f5e9; border-color:#2e7d32;">
+        <h3 style="color:#2e7d32;">✅ No Significant Waste Predicted</h3>
+        <p>Your stock levels are well managed. No NGO alert needed.</p>
+      </div>
+
+    </div>
+  </div>
+
+</div><!-- /content -->
+
+<!-- ── JavaScript ─────────────────────────────────────────── -->
+<script>
+  let currentIngredients = [];
+
+  // Switch tabs
+  function switchTab(name, el) {
+    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.getElementById('tab-' + name).classList.add('active');
+    el.classList.add('active');
+    loadStockInputs();
+  }
+
+  // Load stock inputs when dish changes
+  async function loadStockInputs() {
+    const dish = document.getElementById('a-dish')?.value;
+    if (!dish) return;
+
+    const res  = await fetch(`/api/ingredients/${encodeURIComponent(dish)}`);
+    const data = await res.json();
+    currentIngredients = data.ingredients;
+
+    const grid = document.getElementById('stock-grid');
+    grid.innerHTML = '';
+    currentIngredients.forEach(item => {
+      const div = document.createElement('div');
+      div.className = 'stock-item';
+      div.innerHTML = `
+        <label>${item.ingredient} (${item.unit})</label>
+        <input type="number" id="stock_${item.ingredient.replace(/\s+/g,'_')}"
+               min="0" value="0" step="50" style="width:100%;padding:8px 10px;border:2px solid #ddd;border-radius:6px;font-size:14px;" />
+      `;
+      grid.appendChild(div);
+    });
+  }
+
+  // ── PREDICT ──────────────────────────────────────────────
+  async function predictIngredients() {
+    const dish      = document.getElementById('p-dish').value;
+    const customers = parseInt(document.getElementById('p-customers').value);
+
+    document.getElementById('p-result').classList.add('hidden');
+    document.getElementById('p-loader').style.display = 'block';
+
+    const res  = await fetch('/api/predict', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({dish_name: dish, num_customers: customers})
+    });
+    const data = await res.json();
+    document.getElementById('p-loader').style.display = 'none';
+
+    // Metrics
+    document.getElementById('p-metrics').innerHTML = `
+      <div class="metric"><div class="val">${dish.split(' ').slice(0,2).join(' ')}</div><div class="lbl">🍛 Dish</div></div>
+      <div class="metric"><div class="val">${customers}</div><div class="lbl">👥 Customers</div></div>
+      <div class="metric"><div class="val">${data.ingredients.length}</div><div class="lbl">📦 Ingredients</div></div>
+      <div class="metric"><div class="val">${(data.ingredients.reduce((s,i)=>s+i.required_grams,0)/1000).toFixed(2)} kg</div><div class="lbl">⚖️ Total Weight</div></div>
+    `;
+
+    // Table
+    const tbody = document.getElementById('p-tbody');
+    tbody.innerHTML = '';
+    data.ingredients.forEach((item, i) => {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td>${i+1}</td>
+        <td><strong>${item.ingredient}</strong></td>
+        <td>${item.required_grams}</td>
+        <td>${item.required_kg}</td>
+        <td>${item.category}</td>
+        <td>${item.shelf_life_days} days</td>
+        <td>${'🔴'.repeat(Math.round(item.perishability_score/3))} ${item.perishability_score}/10</td>
+      `;
+      tbody.appendChild(row);
+    });
+
+    document.getElementById('p-result').classList.remove('hidden');
+  }
+
+  // ── ANALYZE ──────────────────────────────────────────────
+  async function analyzeWaste() {
+    const dish      = document.getElementById('a-dish').value;
+    const customers = parseInt(document.getElementById('a-customers').value);
+
+    // Collect stock
+    const stock = currentIngredients.map(item => ({
+      ingredient  : item.ingredient,
+      stock_grams : parseFloat(document.getElementById('stock_' + item.ingredient.replace(/\s+/g,'_'))?.value || 0)
+    }));
+
+    document.getElementById('a-result').classList.add('hidden');
+    document.getElementById('ngo-box').classList.add('hidden');
+    document.getElementById('no-waste-box').classList.add('hidden');
+    document.getElementById('a-loader').style.display = 'block';
+
+    const res  = await fetch('/api/analyze', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({dish_name: dish, num_customers: customers, stock: stock})
+    });
+    const data = await res.json();
+    document.getElementById('a-loader').style.display = 'none';
+
+    // Metrics
+    const totalExcess   = data.analysis.reduce((s,a) => s + a.excess_grams, 0);
+    const totalShortage = data.analysis.reduce((s,a) => s + a.shortage_grams, 0);
+    const totalWaste    = data.analysis.reduce((s,a) => s + a.predicted_waste_grams, 0);
+    const ngoCount      = data.analysis.filter(a => a.ngo_alert).length;
+
+    document.getElementById('a-metrics').innerHTML = `
+      <div class="metric"><div class="val" style="color:#2e7d32">${(totalExcess/1000).toFixed(2)} kg</div><div class="lbl">✅ Total Excess</div></div>
+      <div class="metric"><div class="val" style="color:#c62828">${(totalShortage/1000).toFixed(2)} kg</div><div class="lbl">❌ Total Shortage</div></div>
+      <div class="metric"><div class="val" style="color:#e65100">${(totalWaste/1000).toFixed(2)} kg</div><div class="lbl">🗑️ Predicted Waste</div></div>
+      <div class="metric"><div class="val" style="color:#ff6f00">${ngoCount}</div><div class="lbl">🚨 NGO Alert Items</div></div>
+    `;
+
+    // Analysis table
+    const tbody = document.getElementById('a-tbody');
+    tbody.innerHTML = '';
+    data.analysis.forEach((a, i) => {
+      const row = document.createElement('tr');
+      if (a.status === 'SHORTAGE') row.style.background = '#fff5f5';
+      else if (a.ngo_alert)        row.style.background = '#fff8e1';
+      row.innerHTML = `
+        <td>${i+1}</td>
+        <td><strong>${a.ingredient}</strong></td>
+        <td>${a.in_stock_grams}</td>
+        <td>${a.required_grams}</td>
+        <td><span class="badge-${a.status.toLowerCase()}">${a.status}</span></td>
+        <td>${a.excess_grams}</td>
+        <td>${a.shortage_grams}</td>
+        <td>${a.predicted_waste_grams}</td>
+        <td>${a.ngo_alert ? '<span class="badge-ngo">🚨 YES</span>' : '✅ No'}</td>
+      `;
+      tbody.appendChild(row);
+    });
+
+    // NGO section
+    if (data.ngo_required) {
+      const ngoTbody = document.getElementById('ngo-tbody');
+      ngoTbody.innerHTML = '';
+      data.ngo_items.forEach(item => {
+        const row = document.createElement('tr');
+        row.innerHTML = `<td>${item.ingredient}</td><td>${item.excess_grams}</td><td>${item.predicted_waste_grams}</td><td>${item.shelf_life_days} days</td>`;
+        ngoTbody.appendChild(row);
+      });
+      document.getElementById('ngo-box').classList.remove('hidden');
+    } else {
+      document.getElementById('no-waste-box').classList.remove('hidden');
+    }
+
+    document.getElementById('a-result').classList.remove('hidden');
+  }
+
+  // ── NGO ALERT ────────────────────────────────────────────
+  function sendNGOAlert() {
+    const payload = {
+      restaurant  : document.getElementById('ngo-restaurant').value,
+      location    : document.getElementById('ngo-location').value,
+      pickup_time : document.getElementById('ngo-pickup').value,
+      message     : "Excess food available. Please collect for donation."
+    };
+    console.log("NGO Alert Payload:", payload);
+    document.getElementById('ngo-success').style.display = 'block';
+    setTimeout(() => document.getElementById('ngo-success').style.display = 'none', 4000);
+  }
+
+  // Load stock inputs on page load
+  window.onload = () => loadStockInputs();
+</script>
+
+</body>
+</html>
