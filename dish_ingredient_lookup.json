@@ -1,0 +1,3193 @@
+{
+  "Aloo Gobi": [
+    {
+      "ingredient": "Potato",
+      "quantity_per_person_grams": 120.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 30,
+      "perishability_score": 3,
+      "wastage_factor_percent": 8
+    },
+    {
+      "ingredient": "Cauliflower",
+      "quantity_per_person_grams": 100.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 4,
+      "perishability_score": 8,
+      "wastage_factor_percent": 25
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 30.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 10.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Cumin Seeds",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Coriander Powder",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Coriander Leaves",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 2,
+      "perishability_score": 10,
+      "wastage_factor_percent": 50
+    }
+  ],
+  "Aloo Paratha": [
+    {
+      "ingredient": "Wheat Flour",
+      "quantity_per_person_grams": 100.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Potato",
+      "quantity_per_person_grams": 80.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 30,
+      "perishability_score": 3,
+      "wastage_factor_percent": 8
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 30.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Green Chilli",
+      "quantity_per_person_grams": 4.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 4,
+      "perishability_score": 8,
+      "wastage_factor_percent": 30
+    },
+    {
+      "ingredient": "Ghee",
+      "quantity_per_person_grams": 15.0,
+      "unit": "grams",
+      "category": "fat",
+      "shelf_life_days": 60,
+      "perishability_score": 3,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Cumin Seeds",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Coriander Leaves",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 2,
+      "perishability_score": 10,
+      "wastage_factor_percent": 50
+    },
+    {
+      "ingredient": "Amchur Powder",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    }
+  ],
+  "Baingan Bharta": [
+    {
+      "ingredient": "Brinjal",
+      "quantity_per_person_grams": 150.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 4,
+      "perishability_score": 8,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 50.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 50.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 10.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 8.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Green Chilli",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 4,
+      "perishability_score": 8,
+      "wastage_factor_percent": 30
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Coriander Leaves",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 2,
+      "perishability_score": 10,
+      "wastage_factor_percent": 50
+    }
+  ],
+  "Biryani": [
+    {
+      "ingredient": "Basmati Rice",
+      "quantity_per_person_grams": 180.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Chicken",
+      "quantity_per_person_grams": 200.0,
+      "unit": "grams",
+      "category": "protein",
+      "shelf_life_days": 1,
+      "perishability_score": 10,
+      "wastage_factor_percent": 30
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 60.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Yogurt",
+      "quantity_per_person_grams": 50.0,
+      "unit": "grams",
+      "category": "dairy",
+      "shelf_life_days": 5,
+      "perishability_score": 8,
+      "wastage_factor_percent": 15
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 15.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 12.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Biryani Masala",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Mint Leaves",
+      "quantity_per_person_grams": 10.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 2,
+      "perishability_score": 10,
+      "wastage_factor_percent": 50
+    },
+    {
+      "ingredient": "Saffron",
+      "quantity_per_person_grams": 0.2,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Ghee",
+      "quantity_per_person_grams": 10.0,
+      "unit": "grams",
+      "category": "fat",
+      "shelf_life_days": 60,
+      "perishability_score": 3,
+      "wastage_factor_percent": 5
+    }
+  ],
+  "Butter Chicken": [
+    {
+      "ingredient": "Chicken",
+      "quantity_per_person_grams": 200.0,
+      "unit": "grams",
+      "category": "protein",
+      "shelf_life_days": 1,
+      "perishability_score": 10,
+      "wastage_factor_percent": 30
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 70.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 50.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Butter",
+      "quantity_per_person_grams": 20.0,
+      "unit": "grams",
+      "category": "fat",
+      "shelf_life_days": 30,
+      "perishability_score": 5,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Cream",
+      "quantity_per_person_grams": 25.0,
+      "unit": "ml",
+      "category": "dairy",
+      "shelf_life_days": 5,
+      "perishability_score": 8,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 12.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Garam Masala",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Kasuri Methi",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 90,
+      "perishability_score": 2,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 10.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    }
+  ],
+  "Chicken Tikka Masala": [
+    {
+      "ingredient": "Chicken",
+      "quantity_per_person_grams": 200.0,
+      "unit": "grams",
+      "category": "protein",
+      "shelf_life_days": 1,
+      "perishability_score": 10,
+      "wastage_factor_percent": 25
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 60.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 70.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Cream",
+      "quantity_per_person_grams": 30.0,
+      "unit": "ml",
+      "category": "dairy",
+      "shelf_life_days": 5,
+      "perishability_score": 8,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Butter",
+      "quantity_per_person_grams": 15.0,
+      "unit": "grams",
+      "category": "fat",
+      "shelf_life_days": 30,
+      "perishability_score": 5,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 12.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Garam Masala",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Kasuri Methi",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 90,
+      "perishability_score": 2,
+      "wastage_factor_percent": 5
+    }
+  ],
+  "Chole Bhature": [
+    {
+      "ingredient": "Chickpeas",
+      "quantity_per_person_grams": 120.0,
+      "unit": "grams",
+      "category": "legume",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 50.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 50.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 12.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 10.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Chole Masala",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Maida",
+      "quantity_per_person_grams": 100.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Curd",
+      "quantity_per_person_grams": 30.0,
+      "unit": "grams",
+      "category": "dairy",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 20
+    }
+  ],
+  "Dahi Vada": [
+    {
+      "ingredient": "Urad Dal",
+      "quantity_per_person_grams": 80.0,
+      "unit": "grams",
+      "category": "lentil",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Yogurt",
+      "quantity_per_person_grams": 120.0,
+      "unit": "grams",
+      "category": "dairy",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Tamarind Chutney",
+      "quantity_per_person_grams": 15.0,
+      "unit": "grams",
+      "category": "condiment",
+      "shelf_life_days": 7,
+      "perishability_score": 7,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Green Chutney",
+      "quantity_per_person_grams": 10.0,
+      "unit": "grams",
+      "category": "condiment",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Cumin Powder",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 15.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Coriander Leaves",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 2,
+      "perishability_score": 10,
+      "wastage_factor_percent": 50
+    }
+  ],
+  "Dal Makhani": [
+    {
+      "ingredient": "Black Lentils",
+      "quantity_per_person_grams": 90.0,
+      "unit": "grams",
+      "category": "lentil",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Kidney Beans",
+      "quantity_per_person_grams": 30.0,
+      "unit": "grams",
+      "category": "legume",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Butter",
+      "quantity_per_person_grams": 20.0,
+      "unit": "grams",
+      "category": "fat",
+      "shelf_life_days": 30,
+      "perishability_score": 5,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Cream",
+      "quantity_per_person_grams": 20.0,
+      "unit": "ml",
+      "category": "dairy",
+      "shelf_life_days": 5,
+      "perishability_score": 8,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 50.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 10.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Garam Masala",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Kasuri Methi",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 90,
+      "perishability_score": 2,
+      "wastage_factor_percent": 5
+    }
+  ],
+  "Dal Tadka": [
+    {
+      "ingredient": "Toor Dal",
+      "quantity_per_person_grams": 80.0,
+      "unit": "grams",
+      "category": "lentil",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 35.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 10.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Mustard Seeds",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Cumin Seeds",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Garlic",
+      "quantity_per_person_grams": 8.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 30,
+      "perishability_score": 3,
+      "wastage_factor_percent": 8
+    },
+    {
+      "ingredient": "Coriander Leaves",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 2,
+      "perishability_score": 10,
+      "wastage_factor_percent": 50
+    }
+  ],
+  "Egg Curry": [
+    {
+      "ingredient": "Eggs",
+      "quantity_per_person_grams": 100.0,
+      "unit": "grams",
+      "category": "protein",
+      "shelf_life_days": 7,
+      "perishability_score": 7,
+      "wastage_factor_percent": 15
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 50.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 50.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 12.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 10.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Coriander Powder",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Garam Masala",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Coriander Leaves",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 2,
+      "perishability_score": 10,
+      "wastage_factor_percent": 50
+    }
+  ],
+  "Fish Curry": [
+    {
+      "ingredient": "Fish",
+      "quantity_per_person_grams": 200.0,
+      "unit": "grams",
+      "category": "protein",
+      "shelf_life_days": 1,
+      "perishability_score": 10,
+      "wastage_factor_percent": 35
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 60.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 50.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Coconut Milk",
+      "quantity_per_person_grams": 50.0,
+      "unit": "ml",
+      "category": "dairy",
+      "shelf_life_days": 2,
+      "perishability_score": 9,
+      "wastage_factor_percent": 25
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 15.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 12.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 4.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Coriander Powder",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Curry Leaves",
+      "quantity_per_person_grams": 4.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    }
+  ],
+  "Fried Rice": [
+    {
+      "ingredient": "Rice",
+      "quantity_per_person_grams": 150.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 30.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Carrot",
+      "quantity_per_person_grams": 20.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 15
+    },
+    {
+      "ingredient": "Green Peas",
+      "quantity_per_person_grams": 15.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 2,
+      "perishability_score": 9,
+      "wastage_factor_percent": 35
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 10.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Soy Sauce",
+      "quantity_per_person_grams": 5.0,
+      "unit": "ml",
+      "category": "condiment",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Green Chilli",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 4,
+      "perishability_score": 8,
+      "wastage_factor_percent": 30
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 8.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    }
+  ],
+  "Gulab Jamun": [
+    {
+      "ingredient": "Milk Powder",
+      "quantity_per_person_grams": 60.0,
+      "unit": "grams",
+      "category": "dairy",
+      "shelf_life_days": 180,
+      "perishability_score": 2,
+      "wastage_factor_percent": 8
+    },
+    {
+      "ingredient": "Maida",
+      "quantity_per_person_grams": 15.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Sugar",
+      "quantity_per_person_grams": 80.0,
+      "unit": "grams",
+      "category": "sweetener",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 20.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Cardamom",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Rose Water",
+      "quantity_per_person_grams": 5.0,
+      "unit": "ml",
+      "category": "condiment",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Saffron",
+      "quantity_per_person_grams": 0.1,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    }
+  ],
+  "Halwa": [
+    {
+      "ingredient": "Semolina",
+      "quantity_per_person_grams": 80.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Sugar",
+      "quantity_per_person_grams": 60.0,
+      "unit": "grams",
+      "category": "sweetener",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Ghee",
+      "quantity_per_person_grams": 25.0,
+      "unit": "grams",
+      "category": "fat",
+      "shelf_life_days": 60,
+      "perishability_score": 3,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Milk",
+      "quantity_per_person_grams": 100.0,
+      "unit": "ml",
+      "category": "dairy",
+      "shelf_life_days": 2,
+      "perishability_score": 9,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Cashews",
+      "quantity_per_person_grams": 10.0,
+      "unit": "grams",
+      "category": "nut",
+      "shelf_life_days": 90,
+      "perishability_score": 2,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Raisins",
+      "quantity_per_person_grams": 10.0,
+      "unit": "grams",
+      "category": "nut",
+      "shelf_life_days": 90,
+      "perishability_score": 2,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Cardamom",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Saffron",
+      "quantity_per_person_grams": 0.1,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    }
+  ],
+  "Idli": [
+    {
+      "ingredient": "Rice",
+      "quantity_per_person_grams": 120.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Urad Dal",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "lentil",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 5.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Mustard Seeds",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Curry Leaves",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    }
+  ],
+  "Kadhi Pakora": [
+    {
+      "ingredient": "Yogurt",
+      "quantity_per_person_grams": 100.0,
+      "unit": "grams",
+      "category": "dairy",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Besan",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 10.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Mustard Seeds",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Curry Leaves",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Ginger",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 10,
+      "perishability_score": 6,
+      "wastage_factor_percent": 15
+    }
+  ],
+  "Khichdi": [
+    {
+      "ingredient": "Rice",
+      "quantity_per_person_grams": 100.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Moong Dal",
+      "quantity_per_person_grams": 60.0,
+      "unit": "grams",
+      "category": "lentil",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 30.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 25.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Ghee",
+      "quantity_per_person_grams": 10.0,
+      "unit": "grams",
+      "category": "fat",
+      "shelf_life_days": 60,
+      "perishability_score": 3,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Cumin Seeds",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Ginger",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 10,
+      "perishability_score": 6,
+      "wastage_factor_percent": 15
+    }
+  ],
+  "Lassi": [
+    {
+      "ingredient": "Yogurt",
+      "quantity_per_person_grams": 200.0,
+      "unit": "grams",
+      "category": "dairy",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Sugar",
+      "quantity_per_person_grams": 20.0,
+      "unit": "grams",
+      "category": "sweetener",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Milk",
+      "quantity_per_person_grams": 50.0,
+      "unit": "ml",
+      "category": "dairy",
+      "shelf_life_days": 2,
+      "perishability_score": 9,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Cardamom",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Rose Water",
+      "quantity_per_person_grams": 3.0,
+      "unit": "ml",
+      "category": "condiment",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    }
+  ],
+  "Masala Dosa": [
+    {
+      "ingredient": "Rice",
+      "quantity_per_person_grams": 100.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Urad Dal",
+      "quantity_per_person_grams": 30.0,
+      "unit": "grams",
+      "category": "lentil",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Potato",
+      "quantity_per_person_grams": 80.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 30,
+      "perishability_score": 3,
+      "wastage_factor_percent": 8
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Green Chilli",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 4,
+      "perishability_score": 8,
+      "wastage_factor_percent": 30
+    },
+    {
+      "ingredient": "Mustard Seeds",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Curry Leaves",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 12.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    }
+  ],
+  "Matar Paneer": [
+    {
+      "ingredient": "Paneer",
+      "quantity_per_person_grams": 90.0,
+      "unit": "grams",
+      "category": "dairy",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 25
+    },
+    {
+      "ingredient": "Green Peas",
+      "quantity_per_person_grams": 60.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 2,
+      "perishability_score": 9,
+      "wastage_factor_percent": 35
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 45.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 10.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 8.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Garam Masala",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Cream",
+      "quantity_per_person_grams": 10.0,
+      "unit": "ml",
+      "category": "dairy",
+      "shelf_life_days": 5,
+      "perishability_score": 8,
+      "wastage_factor_percent": 20
+    }
+  ],
+  "Mix Veg": [
+    {
+      "ingredient": "Potato",
+      "quantity_per_person_grams": 60.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 30,
+      "perishability_score": 3,
+      "wastage_factor_percent": 8
+    },
+    {
+      "ingredient": "Carrot",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 15
+    },
+    {
+      "ingredient": "Cauliflower",
+      "quantity_per_person_grams": 50.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 4,
+      "perishability_score": 8,
+      "wastage_factor_percent": 25
+    },
+    {
+      "ingredient": "Green Peas",
+      "quantity_per_person_grams": 30.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 2,
+      "perishability_score": 9,
+      "wastage_factor_percent": 35
+    },
+    {
+      "ingredient": "Beans",
+      "quantity_per_person_grams": 30.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 30
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 10.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 8.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Garam Masala",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Coriander Leaves",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 2,
+      "perishability_score": 10,
+      "wastage_factor_percent": 50
+    }
+  ],
+  "Mutton Curry": [
+    {
+      "ingredient": "Mutton",
+      "quantity_per_person_grams": 250.0,
+      "unit": "grams",
+      "category": "protein",
+      "shelf_life_days": 1,
+      "perishability_score": 10,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 70.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 60.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 15.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 15.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 4.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Garam Masala",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Coriander Powder",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Coriander Leaves",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 2,
+      "perishability_score": 10,
+      "wastage_factor_percent": 50
+    }
+  ],
+  "Palak Paneer": [
+    {
+      "ingredient": "Spinach",
+      "quantity_per_person_grams": 150.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 2,
+      "perishability_score": 10,
+      "wastage_factor_percent": 45
+    },
+    {
+      "ingredient": "Paneer",
+      "quantity_per_person_grams": 80.0,
+      "unit": "grams",
+      "category": "dairy",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 25
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 30.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 10.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 8.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Cumin Seeds",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Garam Masala",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Cream",
+      "quantity_per_person_grams": 15.0,
+      "unit": "ml",
+      "category": "dairy",
+      "shelf_life_days": 5,
+      "perishability_score": 8,
+      "wastage_factor_percent": 20
+    }
+  ],
+  "Paneer Butter Masala": [
+    {
+      "ingredient": "Paneer",
+      "quantity_per_person_grams": 100.0,
+      "unit": "grams",
+      "category": "dairy",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 25
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 60.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 50.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Butter",
+      "quantity_per_person_grams": 15.0,
+      "unit": "grams",
+      "category": "fat",
+      "shelf_life_days": 30,
+      "perishability_score": 5,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Cream",
+      "quantity_per_person_grams": 20.0,
+      "unit": "ml",
+      "category": "dairy",
+      "shelf_life_days": 5,
+      "perishability_score": 8,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 10.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Garam Masala",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 10.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Coriander Leaves",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 2,
+      "perishability_score": 10,
+      "wastage_factor_percent": 50
+    }
+  ],
+  "Pani Puri": [
+    {
+      "ingredient": "Semolina",
+      "quantity_per_person_grams": 80.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Potato",
+      "quantity_per_person_grams": 60.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 30,
+      "perishability_score": 3,
+      "wastage_factor_percent": 8
+    },
+    {
+      "ingredient": "Chickpeas",
+      "quantity_per_person_grams": 30.0,
+      "unit": "grams",
+      "category": "legume",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Tamarind",
+      "quantity_per_person_grams": 10.0,
+      "unit": "grams",
+      "category": "condiment",
+      "shelf_life_days": 180,
+      "perishability_score": 2,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Mint Leaves",
+      "quantity_per_person_grams": 15.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 2,
+      "perishability_score": 10,
+      "wastage_factor_percent": 50
+    },
+    {
+      "ingredient": "Green Chilli",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 4,
+      "perishability_score": 8,
+      "wastage_factor_percent": 30
+    },
+    {
+      "ingredient": "Cumin Powder",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Black Salt",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Coriander Leaves",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 2,
+      "perishability_score": 10,
+      "wastage_factor_percent": 50
+    }
+  ],
+  "Pav Bhaji": [
+    {
+      "ingredient": "Mixed Vegetables",
+      "quantity_per_person_grams": 150.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 30
+    },
+    {
+      "ingredient": "Potato",
+      "quantity_per_person_grams": 80.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 30,
+      "perishability_score": 3,
+      "wastage_factor_percent": 8
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 60.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 50.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Butter",
+      "quantity_per_person_grams": 20.0,
+      "unit": "grams",
+      "category": "fat",
+      "shelf_life_days": 30,
+      "perishability_score": 5,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Pav Bhaji Masala",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Pav Bread",
+      "quantity_per_person_grams": 80.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 2,
+      "perishability_score": 9,
+      "wastage_factor_percent": 35
+    },
+    {
+      "ingredient": "Coriander Leaves",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 2,
+      "perishability_score": 10,
+      "wastage_factor_percent": 50
+    }
+  ],
+  "Poha": [
+    {
+      "ingredient": "Flattened Rice",
+      "quantity_per_person_grams": 100.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Potato",
+      "quantity_per_person_grams": 30.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 30,
+      "perishability_score": 3,
+      "wastage_factor_percent": 8
+    },
+    {
+      "ingredient": "Green Peas",
+      "quantity_per_person_grams": 15.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 2,
+      "perishability_score": 9,
+      "wastage_factor_percent": 35
+    },
+    {
+      "ingredient": "Mustard Seeds",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Curry Leaves",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Green Chilli",
+      "quantity_per_person_grams": 4.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 4,
+      "perishability_score": 8,
+      "wastage_factor_percent": 30
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 8.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Lemon Juice",
+      "quantity_per_person_grams": 5.0,
+      "unit": "ml",
+      "category": "condiment",
+      "shelf_life_days": 7,
+      "perishability_score": 7,
+      "wastage_factor_percent": 20
+    }
+  ],
+  "Rajma Chawal": [
+    {
+      "ingredient": "Kidney Beans",
+      "quantity_per_person_grams": 100.0,
+      "unit": "grams",
+      "category": "legume",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Rice",
+      "quantity_per_person_grams": 150.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 50.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 50.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 12.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 10.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Rajma Masala",
+      "quantity_per_person_grams": 4.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Coriander Leaves",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 2,
+      "perishability_score": 10,
+      "wastage_factor_percent": 50
+    }
+  ],
+  "Sambar": [
+    {
+      "ingredient": "Toor Dal",
+      "quantity_per_person_grams": 70.0,
+      "unit": "grams",
+      "category": "lentil",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Mixed Vegetables",
+      "quantity_per_person_grams": 100.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 30
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Tamarind",
+      "quantity_per_person_grams": 10.0,
+      "unit": "grams",
+      "category": "condiment",
+      "shelf_life_days": 180,
+      "perishability_score": 2,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Sambar Powder",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Mustard Seeds",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Curry Leaves",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 8.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    }
+  ],
+  "Shahi Paneer": [
+    {
+      "ingredient": "Paneer",
+      "quantity_per_person_grams": 100.0,
+      "unit": "grams",
+      "category": "dairy",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 25
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 50.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Cashews",
+      "quantity_per_person_grams": 20.0,
+      "unit": "grams",
+      "category": "nut",
+      "shelf_life_days": 90,
+      "perishability_score": 2,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Cream",
+      "quantity_per_person_grams": 30.0,
+      "unit": "ml",
+      "category": "dairy",
+      "shelf_life_days": 5,
+      "perishability_score": 8,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Butter",
+      "quantity_per_person_grams": 15.0,
+      "unit": "grams",
+      "category": "fat",
+      "shelf_life_days": 30,
+      "perishability_score": 5,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 10.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Cardamom",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Garam Masala",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Saffron",
+      "quantity_per_person_grams": 0.1,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    }
+  ],
+  "Tandoori Chicken": [
+    {
+      "ingredient": "Chicken",
+      "quantity_per_person_grams": 250.0,
+      "unit": "grams",
+      "category": "protein",
+      "shelf_life_days": 1,
+      "perishability_score": 10,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Yogurt",
+      "quantity_per_person_grams": 60.0,
+      "unit": "grams",
+      "category": "dairy",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Ginger Garlic Paste",
+      "quantity_per_person_grams": 15.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 7,
+      "perishability_score": 6,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Red Chilli Powder",
+      "quantity_per_person_grams": 4.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Garam Masala",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Lemon Juice",
+      "quantity_per_person_grams": 10.0,
+      "unit": "ml",
+      "category": "condiment",
+      "shelf_life_days": 7,
+      "perishability_score": 7,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 10.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Kasuri Methi",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 90,
+      "perishability_score": 2,
+      "wastage_factor_percent": 5
+    }
+  ],
+  "Upma": [
+    {
+      "ingredient": "Semolina",
+      "quantity_per_person_grams": 100.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Onion",
+      "quantity_per_person_grams": 40.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 15,
+      "perishability_score": 4,
+      "wastage_factor_percent": 10
+    },
+    {
+      "ingredient": "Tomato",
+      "quantity_per_person_grams": 25.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Green Peas",
+      "quantity_per_person_grams": 15.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 2,
+      "perishability_score": 9,
+      "wastage_factor_percent": 35
+    },
+    {
+      "ingredient": "Mustard Seeds",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Curry Leaves",
+      "quantity_per_person_grams": 3.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 3,
+      "perishability_score": 9,
+      "wastage_factor_percent": 40
+    },
+    {
+      "ingredient": "Green Chilli",
+      "quantity_per_person_grams": 4.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 4,
+      "perishability_score": 8,
+      "wastage_factor_percent": 30
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 8.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Cashews",
+      "quantity_per_person_grams": 10.0,
+      "unit": "grams",
+      "category": "nut",
+      "shelf_life_days": 90,
+      "perishability_score": 2,
+      "wastage_factor_percent": 5
+    }
+  ],
+  "Vada Pav": [
+    {
+      "ingredient": "Potato",
+      "quantity_per_person_grams": 100.0,
+      "unit": "grams",
+      "category": "vegetable",
+      "shelf_life_days": 30,
+      "perishability_score": 3,
+      "wastage_factor_percent": 8
+    },
+    {
+      "ingredient": "Pav Bread",
+      "quantity_per_person_grams": 80.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 2,
+      "perishability_score": 9,
+      "wastage_factor_percent": 35
+    },
+    {
+      "ingredient": "Besan",
+      "quantity_per_person_grams": 30.0,
+      "unit": "grams",
+      "category": "grain",
+      "shelf_life_days": 180,
+      "perishability_score": 1,
+      "wastage_factor_percent": 5
+    },
+    {
+      "ingredient": "Green Chilli",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 4,
+      "perishability_score": 8,
+      "wastage_factor_percent": 30
+    },
+    {
+      "ingredient": "Mustard Seeds",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Turmeric",
+      "quantity_per_person_grams": 1.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Oil",
+      "quantity_per_person_grams": 15.0,
+      "unit": "ml",
+      "category": "fat",
+      "shelf_life_days": 365,
+      "perishability_score": 1,
+      "wastage_factor_percent": 2
+    },
+    {
+      "ingredient": "Salt",
+      "quantity_per_person_grams": 2.0,
+      "unit": "grams",
+      "category": "spice",
+      "shelf_life_days": 730,
+      "perishability_score": 1,
+      "wastage_factor_percent": 1
+    },
+    {
+      "ingredient": "Garlic Chutney",
+      "quantity_per_person_grams": 10.0,
+      "unit": "grams",
+      "category": "condiment",
+      "shelf_life_days": 7,
+      "perishability_score": 7,
+      "wastage_factor_percent": 20
+    },
+    {
+      "ingredient": "Coriander Leaves",
+      "quantity_per_person_grams": 5.0,
+      "unit": "grams",
+      "category": "herb",
+      "shelf_life_days": 2,
+      "perishability_score": 10,
+      "wastage_factor_percent": 50
+    }
+  ]
+}

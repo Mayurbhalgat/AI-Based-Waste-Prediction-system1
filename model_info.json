@@ -1,0 +1,18 @@
+{
+  "best_model": "LSTM",
+  "test_r2": 0.8851,
+  "gap": 0.0183,
+  "mae": 795.45,
+  "needs_scaling": true,
+  "needs_lstm_reshape": true,
+  "features": [
+    "dish_enc",
+    "ing_enc",
+    "num_customers",
+    "shelf_life_days",
+    "perishability_score",
+    "wastage_factor_percent",
+    "unit_enc",
+    "cat_enc"
+  ]
+}
