@@ -1,0 +1,1 @@
+# AI-Based-Waste-Prediction-system1
